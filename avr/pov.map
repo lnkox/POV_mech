@@ -1,0 +1,24 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+dif_int                                                           0x0160       2
+tmr_int2                                                          0x0162       2
+tmr_line                                                          0x0164       2
+curent_line                                                       0x0166       2
+cnt_line                                                          0x0168       2
+tmr_to_sleep                                                      0x016A       2
+max_line                                                          0x016C       2
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+n_pic                                                             R5           1
+zdvug                                                             R6,R7        2
+ready                                                             R4           1
+tmr_int                                                           R8,R9        2
+vzdvug                                                            R10,R11      2
+old_int                                                           R12,R13      2
