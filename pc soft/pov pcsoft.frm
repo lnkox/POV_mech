@@ -1,22 +1,22 @@
 VERSION 5.00
-Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "comdlg32.ocx"
+Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
 Begin VB.Form Form1 
    Caption         =   "Form1"
-   ClientHeight    =   3900
+   ClientHeight    =   9000
    ClientLeft      =   60
    ClientTop       =   450
    ClientWidth     =   11400
    LinkTopic       =   "Form1"
-   ScaleHeight     =   3900
+   ScaleHeight     =   9000
    ScaleWidth      =   11400
    StartUpPosition =   2  'CenterScreen
    Begin VB.CommandButton pic_to_wpic 
       Caption         =   "^^^"
       Height          =   255
-      Left            =   1920
+      Left            =   6240
       Style           =   1  'Graphical
       TabIndex        =   5
-      Top             =   960
+      Top             =   2160
       Width           =   1815
    End
    Begin VB.PictureBox Picture2 
@@ -25,17 +25,17 @@ Begin VB.Form Form1
       BackColor       =   &H80000005&
       ForeColor       =   &H00C0C000&
       Height          =   330
-      Left            =   240
+      Left            =   600
       ScaleHeight     =   20
       ScaleMode       =   3  'Pixel
       ScaleWidth      =   250
       TabIndex        =   4
-      Top             =   1320
+      Top             =   1440
       Width           =   3780
    End
    Begin MSComDlg.CommonDialog CommonDialog1 
-      Left            =   3720
-      Top             =   1800
+      Left            =   4080
+      Top             =   1920
       _ExtentX        =   847
       _ExtentY        =   847
       _Version        =   393216
@@ -43,25 +43,25 @@ Begin VB.Form Form1
    Begin VB.CommandButton Command2 
       Caption         =   "clear"
       Height          =   495
-      Left            =   10200
+      Left            =   11040
       TabIndex        =   3
-      Top             =   1080
+      Top             =   3120
       Width           =   975
    End
    Begin VB.CommandButton Command1 
       Caption         =   "build"
       Height          =   495
-      Left            =   8640
+      Left            =   9480
       TabIndex        =   2
-      Top             =   1080
+      Top             =   3120
       Width           =   1455
    End
    Begin VB.TextBox code_out 
       Height          =   2055
-      Left            =   120
+      Left            =   480
       MultiLine       =   -1  'True
       TabIndex        =   1
-      Top             =   1680
+      Top             =   1800
       Width           =   5655
    End
    Begin VB.PictureBox Picture1 
@@ -69,13 +69,13 @@ Begin VB.Form Form1
       AutoRedraw      =   -1  'True
       BackColor       =   &H80000005&
       ForeColor       =   &H00C0C000&
-      Height          =   630
-      Left            =   240
-      ScaleHeight     =   40
+      Height          =   855
+      Left            =   120
+      ScaleHeight     =   55
       ScaleMode       =   3  'Pixel
       ScaleWidth      =   503
       TabIndex        =   0
-      Top             =   240
+      Top             =   120
       Width           =   7575
    End
 End
@@ -92,7 +92,7 @@ a = 0
 b = 0
 c = 0
 i = 0
-For X = 1 To 500 Step 2
+For X = 1 To 400 Step 2
 t = 0
 i = i + 1
 For Y = 0 To 7
